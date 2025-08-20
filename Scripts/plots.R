@@ -4,6 +4,20 @@ library(ggplot2)
 library(tidyr)
 library(dplyr)
 
+#forest plot
+forest(rdm_model,
+        slab = rdm_data$Study_ID,
+        main = "Sensitivity for RDM",
+        xlab = "AUC (Back-transformed from logit)",
+        mlab = "Pooled Estimate",
+        transf = transf.ilogit, 
+        cex = 0.4,
+        lwd = 1,
+        pch = 15,
+        col = "black",
+        refline = transf.ilogit(rdm_model$b[1]),  # back-rdmansformed pooled effect
+        efac = 0.3)
+
 #traffic light plot > PROBAST
 
 # Read only Sheet1...change the sheets here
@@ -25,7 +39,7 @@ ggplot(data_long, aes(x = Domain, y = Study, fill = Risk)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 
-## applicability analysis 
+## applicability plot
 
 # Read your data
 data <- read_excel("C:\\Users\\USER\\Desktop\\Applicability.xlsx")
