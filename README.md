@@ -51,7 +51,25 @@ The project follows **PRISMA guidelines** and evaluates methodological quality, 
 - Funnel plot showed **showed no significant asymmetry**  
 
 Output: 
-[Click to view Funnel Plot](results/Funnel_plots.png)
+ChatGPT
+Response 2
+
+You’re most welcome 🙌🎉
+Glad that worked out for you!
+
+Since you’ll likely have multiple results (forest plots, funnel plots, ROB traffic lights, etc.), you can build a neat Results section with links only, like:
+
+## 📊 Results
+
+- Number of studies included: **144**  
+- Pooled AUC: **0.808, 0.792, 0.845, 0.835, and 0.805 for OS, PFS, RDM, TR, and TQL, respectively**  
+- Funnel plot showed **no significant asymmetry**  
+
+### 🔗 Plots
+- [Forest Plot](results/Forest_plots.png)  
+- [Funnel Plot](results/Funnel_plots.png)  
+- [Risk of Bias Plot](results/ROB_Applicability.png)  
+- [Sensitivity Plot](results/Sensitivity.png)
 
 ---
 
