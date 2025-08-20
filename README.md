@@ -51,7 +51,7 @@ The project follows **PRISMA guidelines** and evaluates methodological quality, 
 - Funnel plot showed **showed no significant asymmetry**  
 
 Example output:  
-![Forest Plot](results/forest_plot.png)
+![Forest Plot](results/Combined Bias.png)
 
 ---
 
