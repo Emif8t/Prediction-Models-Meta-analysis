@@ -50,8 +50,8 @@ The project follows **PRISMA guidelines** and evaluates methodological quality, 
 - Pooled AUC: **0.808, 0.792, 0.845, 0.835, and 0.805 for OS, PFS, RDM, TR, and TQL, respectively**  
 - Funnel plot showed **showed no significant asymmetry**  
 
-Example output:  
-![Funnel Plot](results/Funnel_plots.png). 
+Output: 
+[Click to view Funnel Plot](results/Funnel_plots.png)
 
 ---
 
