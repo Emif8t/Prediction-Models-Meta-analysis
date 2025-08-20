@@ -15,7 +15,7 @@ forest(rdm_model,
         main = "Sensitivity for RDM",
         xlab = "AUC (Back-transformed from logit)",
         mlab = "Pooled Estimate",
-        transf = transf.ilogit,   # <-- This is the key line
+        transf = transf.ilogit, 
         cex = 0.4,
         lwd = 1,
         pch = 15,
