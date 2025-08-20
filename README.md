@@ -7,13 +7,15 @@ The project follows **PRISMA guidelines** and evaluates methodological quality, 
 ## Project Structure
 ```
 │
-├── data/                     # Datasets used (if allowed, else just metadata)
-│   ├── extracted_data.csv     
+├── data/                     
+│   ├── extracted_data.xlsx     
 │   └── .gitkeep
 │
 ├── scripts/                  # Code used for analysis
-│   ├── meta_analysis.R        # R code 
-│   └── forest_plot.R          
+│   ├── meta_analysis.R
+    ├── meta_regression.R
+    ├── plots.R
+│   └── sensitivity_analysis.R          
 │
 ├── results/                  
 │   ├── forest_plot.png
