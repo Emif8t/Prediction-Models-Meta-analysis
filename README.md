@@ -82,11 +82,11 @@ If you use this repository, please cite:
 ---
 
 👥 Contributors
-Emmanuel N. Israel – Project Lead / Data Scientist
-Prof. Israel S. Afolabi - Supervisor
-Oluwakemi A. Rotimi - Co-supervisor
-Kaze N. Niels - Co-author 
-Omobolanle O. Makanjuola¶ - Co-authour
+- Emmanuel N. Israel – Project Lead / Data Scientist
+- Prof. Israel S. Afolabi - Supervisor
+- Oluwakemi A. Rotimi - Co-supervisor
+- Kaze N. Niels - Co-author
+- Omobolanle O. Makanjuola¶ - Co-authour
 
 
 ## 🔗 Related Project
