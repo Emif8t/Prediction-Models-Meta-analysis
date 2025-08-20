@@ -1,0 +1,40 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files (optional, only keep metadata/extracted tables)
+*.csv
+*.xlsx
+*.sav
+*.dta
+
+# PDFs of full-text articles (not for GitHub, too heavy + copyright)
+*.pdf
+
+# Results (only upload final figures/tables)
+results/*.xlsx
+
+# Logs
+*.log
+
+# Other
+*.bak
+*.tmp
