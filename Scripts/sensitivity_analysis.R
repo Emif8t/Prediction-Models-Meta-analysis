@@ -1,5 +1,5 @@
 library(readxl)
-mydata <- read_excel("C:\\Users\\USER\\Desktop\\Book4.xlsx")
+mydata <- read_excel("G:\\My Drive\\Academics\\Prostate cancer prediction model\\Current_Book4.xlsx") 
 mydata$logit_AUC <- log(mydata$AUC / (1 - mydata$AUC))
 mydata$logit_AUC <- log(mydata$AUC / (1 - mydata$AUC))
 mydata$se_logit_AUC <- 1 / sqrt(mydata$Sample_size * mydata$AUC * (1 - mydata$AUC)) 
