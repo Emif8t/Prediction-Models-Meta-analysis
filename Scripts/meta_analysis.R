@@ -2,7 +2,7 @@ library(readxl)
 library(metafor)
 library(dplyr)
 
-mydata <- read_excel("G:\\My Drive\\Academics\\Prostate cancer prediction model\\Current Book4.xlsx")
+mydata <- read_excel("G:\\My Drive\\Academics\\Prostate cancer prediction model\\Current_Book4.xlsx")
 
 # Define logit transform and inverse logit
 logit <- function(p) log(p / (1 - p))
